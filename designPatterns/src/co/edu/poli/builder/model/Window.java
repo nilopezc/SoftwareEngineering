@@ -2,8 +2,8 @@ package co.edu.poli.builder.model;
 
 public class Window {
 	
-	double ancho;
-	double profundo;
+	private double ancho;
+	private double profundo;
 	
 	public Window(double ancho, double profundo) {
 		this.ancho = ancho;

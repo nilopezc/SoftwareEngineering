@@ -2,7 +2,7 @@ package co.edu.poli.builder.model;
 
 public class Pool {
 	
-	double ancho;
+	private double ancho;
 	double profundo;
 	double largo;
 	

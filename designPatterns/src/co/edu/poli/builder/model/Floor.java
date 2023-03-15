@@ -2,8 +2,8 @@ package co.edu.poli.builder.model;
 
 public class Floor {
 	
-	double ancho;
-	double largo;
+	private double ancho;
+	private double largo;
 	
 	public Floor(double ancho, double largo) {
 		this.ancho = ancho;
