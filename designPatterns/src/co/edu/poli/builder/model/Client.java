@@ -6,7 +6,7 @@ public class Client {
 
 		Director d = new Director();
 		
-		System.out.println(d.getHouse("h2"));
+		System.out.println(d.getHouse("Penthouse"));
 	}
 
 }

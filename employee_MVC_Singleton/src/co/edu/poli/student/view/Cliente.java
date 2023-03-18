@@ -1,8 +1,8 @@
-package co.edu.poli.employee.view;
+package co.edu.poli.student.view;
 
 import java.util.Scanner;
 
-import co.edu.poli.employee.controller.EmployeeController;
+import co.edu.poli.student.controller.StudentController;
 
 public class Cliente {
 		
@@ -10,14 +10,14 @@ public class Cliente {
 		
 		Scanner s = new Scanner(System.in);
 
-		System.out.println("Input id employee");
+		System.out.println("Input id student");
 		String txtId = s.nextLine();
-		System.out.println("Input name employee");
+		System.out.println("Input name student");
 		String txtName = s.nextLine();
-		System.out.println("Input address employee");
+		System.out.println("Input address student");
 		String txtAddress = s.nextLine();
 		
-		EmployeeController ec = new EmployeeController(txtId, txtName, txtAddress);
+		StudentController ec = new StudentController(txtId, txtName, txtAddress);
 		
 		ec.eventAdd();	
 		System.out.println(ec.eventReadAll());

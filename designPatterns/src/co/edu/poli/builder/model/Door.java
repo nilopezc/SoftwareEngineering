@@ -9,5 +9,10 @@ public class Door {
 		this.alto = alto;
 		this.largo = largo;
 	}
+
+	@Override
+	public String toString() {
+		return "Door [alto=" + alto + ", largo=" + largo + "]";
+	}
 	
 }

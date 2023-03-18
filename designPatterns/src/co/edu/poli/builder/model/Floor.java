@@ -9,5 +9,10 @@ public class Floor {
 		this.ancho = ancho;
 		this.largo = largo;
 	}
+
+	@Override
+	public String toString() {
+		return "Floor [ancho=" + ancho + ", largo=" + largo + "]";
+	}
 	
 }

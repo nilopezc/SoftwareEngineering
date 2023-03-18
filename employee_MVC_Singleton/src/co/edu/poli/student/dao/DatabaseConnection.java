@@ -1,4 +1,4 @@
-package co.edu.poli.employee.dao;
+package co.edu.poli.student.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,9 +9,9 @@ public class DatabaseConnection {
 	private static Connection con = null;
 
 	static {
-		String url = "jdbc:mysql://127.0.0.1:3306/company";
+		String url = "jdbc:mysql://127.0.0.1:3306/student";
 		String user = "root";
-		String pass = "Admin123*";
+		String pass = "Marsupial9*";
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection(url, user, pass);

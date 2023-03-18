@@ -10,4 +10,11 @@ public class Garden {
 		this.ancho = ancho;
 	}
 
+	@Override
+	public String toString() {
+		return "Garden [largo=" + largo + ", ancho=" + ancho + "]";
+	}
+	
+	
+
 }
